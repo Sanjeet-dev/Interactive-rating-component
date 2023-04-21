@@ -28,46 +28,76 @@ body{
 
 }
 .container{
-    height:35rem;
-    width:25rem;
+    height:22rem;
+    width:22rem;
     background-color:var(--Dark-Blue);
-    text-align:center;
-    margin:10px;
+    display:flex;
+    position:relative;
+    margin:1rem;
+    gap:1rem;
     font-family: 'Overpass', sans-serif;
+    border-radius:12px;
 
+}
+.container > .note2 {
+    position:absolute;
+    visibility:hidden;
+}
+.image{
+    height:2.5rem;
+    width:2.5rem;
+    margin:1.6rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--Very-Dark-Blue);
 }
 .star{
-    height:1.3rem;
-    width:2rem;
-    border-radius:50px;
+    height:1rem;
+    width:1rem;
 
 }
-.container > h2{
+.note1 > #phrase{
     color:var(--White);
     font-weight:700;
     font-family:'Overpass', sans-serif;
+    margin:1.6rem;
+
 }
-.container > p{
+.note1 > p{
     color:var(--Light-Grey);
-    font-size:small;
+    font-size: 13px;
+    margin: 1.6rem;
 }
-.numbers{
+.numbers {
     display:flex;
     flex-direction:row;
     gap:1rem;
-    margin:3rem;
-    justify-content:space-evenly;
-    height:1.3rem;
-    width:2rem;
-    border-radius:50px;
+    margin:1.6rem;
+    justify-content:space-around;
 }
-.submit{
-    height:2rem;
-    width:20rem;
-    border-radius:15px;
-    display:flex;
-    justify-content:center;
-    align-self:center;
-    text-align:center;
+.numbers div{
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--Light-Grey);
+    background-color:var(--Very-Dark-Blue);
+
+}
+
+.button > .submit{
+    height:2.5rem;
+    width:19rem;
     background-color:var(--Orange);
+    border:none;
+    border-radius:20px;
+    margin-left:1.6rem;
+    color:var(--White);
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:13px;
 }
