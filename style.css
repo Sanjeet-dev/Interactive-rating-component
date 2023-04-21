@@ -36,7 +36,7 @@ body{
     margin:1rem;
     gap:1rem;
     font-family: 'Overpass', sans-serif;
-    border-radius:12px;
+    border-radius:20px;
 
 }
 .container > .note2 {
@@ -100,4 +100,39 @@ body{
     text-transform:uppercase;
     letter-spacing:1px;
     font-size:13px;
+}
+
+/* styling after submitting the first note */
+.thank-you{
+    text-align:center;
+    margin:1.6rem;
+}
+.icon{
+    height:6rem;
+    width:8rem;
+    margin-left: 4rem;
+    margin-bottom: 1.6rem
+}
+
+.selection{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: var(--Orange);
+    height: 1.8rem;
+    width: 10rem;
+    border-radius: 20px;
+    background-color: var(--Light-Grey);
+    opacity: 0.8;
+    font-size: small;
+    margin-left: 4rem;
+    padding-top: 6px;
+}
+.thank-you h2{
+    color:var(--White);
+    margin-bottom:1.6rem;
+}
+
+.para{
+    color: var(--Light-Grey);
+    font-size: 13.2px;
 }
