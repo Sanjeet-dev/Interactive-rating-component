@@ -29,7 +29,7 @@ body{
 }
 .container{
     height:22rem;
-    width:22rem;
+    width:21rem;
     background-color:var(--Dark-Blue);
     display:flex;
     position:relative;
@@ -41,7 +41,6 @@ body{
 }
 .container > .note2 {
     position:absolute;
-    visibility:hidden;
 }
 .image{
     height:2.5rem;
@@ -91,7 +90,7 @@ body{
 
 .button > .submit{
     height:2.5rem;
-    width:19rem;
+    width:18rem;
     background-color:var(--Orange);
     border:none;
     border-radius:20px;
@@ -100,6 +99,11 @@ body{
     text-transform:uppercase;
     letter-spacing:1px;
     font-size:13px;
+}
+.submit:hover{
+    background-color:var(--White);
+    color:var(--Orange);
+    cursor: pointer;
 }
 
 /* styling after submitting the first note */
@@ -136,3 +140,13 @@ body{
     color: var(--Light-Grey);
     font-size: 13.2px;
 }
+
+/* active-states */
+
+.numbers :nth-child(5):hover{
+    background-color: var(--Orange);
+    color: var(--White);
+
+}
+
+
